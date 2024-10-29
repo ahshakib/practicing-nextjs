@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-b from-white to-blue-50 min-h-screen flex flex-col`}
       >
-        <nav className="bg-white/80 backdrop-blur-sm border-b border-gray-200 fixed w-full z-50">
+        <nav className="bg-white/80 backdrop-blur-sm border-b border-gray-200 fixed w-full z-50 py-2">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex-1 flex items-center justify-between">
@@ -108,6 +108,16 @@ export default function RootLayout({ children }) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                       <span className="text-xs mt-1">About</span>
+                    </Link>
+                    <Link
+                      href="/posts"
+                      className="flex flex-col items-center text-gray-700 hover:text-blue-600"
+                    >
+                      <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 13H5v-2h14v2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 6h6v6h-6V6zm0 10h6v-6h-6v6zm-10 0h6v-6H5v6z" />
+                      </svg>
+                      <span className="text-xs mt-1">Dummy Posts</span>
                     </Link>
                   </div>
                 </div>

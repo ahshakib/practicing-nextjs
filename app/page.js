@@ -9,7 +9,7 @@ const unlock = Unlock({
 
 export default function Home() {
   return (
-    <main className="mt-10 bg-gradient-to-b from-blue-100 to-white py-10">
+    <main className="bg-gradient-to-b from-blue-100 to-white py-10">
       {/* Hero Section */}
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">

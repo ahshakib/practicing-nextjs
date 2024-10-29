@@ -8,7 +8,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed md:relative md:w-64 w-full bottom-0 md:bottom-auto bg-white shadow-lg md:border-r border-t md:border-t-0 border-gray-200 md:h-full z-50">
+    <nav className="fixed md:relative md:w-64 w-full bottom-0 md:bottom-auto bg-white shadow-lg md:border-r border-t md:border-t-0 border-gray-200 md:h-full z-50 lg:-z-20 ">
         <div className="md:h-full px-4 md:px-6 py-4 md:py-8">
           <ul className="flex md:flex-col flex-row justify-around md:justify-start md:space-y-4 md:space-x-0 space-x-2">
             <li className="flex-1 md:flex-none">
